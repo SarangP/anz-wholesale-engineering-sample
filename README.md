@@ -5,7 +5,7 @@ Assumptions and Constraints
 
 1. Runs on Java 8 +, make sure to have JDK8 and maven installed on the machine <br>
 2. Maven is installed<br>
-3. The application uses H2 in-memory database. So, for every server restart, there will be no records in the database <br>
+3. The application uses H2 in-memory database. So, for every server restart, there will be seed data in the database <br>
 4. Windows/mac version docker must be installed to run the image, if not, the project can be run by traditional build deploy approach<br>
 
 There are currently 3 API's exposed as below.
